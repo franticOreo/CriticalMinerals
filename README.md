@@ -4,6 +4,12 @@ Capstone Project for CITS5553: Critical Minerals
 #### Notion (Task Manager)
 https://www.notion.so/c28a419aaee8478f90b53f47ba8ebc35?v=855ad1cf7b874b32b1668bd207bed744
 
+#### Tech Stack (Suggested)
+Language: Python <br>
+Environment Manager:  ```conda``` <br>
+Computational Notebook: ```jupyter notebook``` <br>
+
+
 #### Folder Structure 
 ```<member name>```: Directory to show members contributions
 
