@@ -1,0 +1,49 @@
+
+get_mineral_estimate(site code, abundant_minerals_tonnes, critical_mineral, site_long, site_lat) #main function 
+
+    deposit_type = label_site_by_deposit (site long, site lat) 
+
+    If CM == ‘Ge’ 
+
+        CM_ratio =  X  
+
+    If CM == ‘In’ 
+
+        CM_ratio =  X 
+
+    Else  
+
+        CM_ratio =  X 
+
+    CM_in_tonnes =  CM_ratio * abundant_minerals  
+
+    Return CM in tonnes 
+
+ 
+
+label_site_by_deposit (site long, site lat) 
+    #this one may not be needed because there are Minedex deposit types in the SiteMineralisation csv – check if these deposit types are the ones we need 
+
+    Return deposit_type 
+
+ 
+
+Unit_conversion(critical_mineral(in ppm))  
+
+    CM_in_tonnes = critical_mineral* abnd_mineral #make it to tonnes  
+
+    Return CM_in_tonnes 
+
+ 
+
+Get_critical_mineral_ratio(abundant_mineral, critical_mineral):       
+
+    Return Critical Mineral Ratio  
+
+ 
+
+Extra Functions:  
+
+Aggregate assays by deposit type in all datasets we have (+ split by subtype eg Drillhole, surface etc...) 
+
+Calculate ratio by mineral pair 
