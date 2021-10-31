@@ -15,9 +15,9 @@ Computational Notebook: ```jupyter notebook``` <br>
 
 #### Contributions in relation to report.
 ```eli```: 
-* ```CLOSE_ASSAYS_FROM_SHP.ipynb``` (contains distance function).
-* ```ModelCreationPipeline.ipynb``` (Creating model pipeline pickles for commodity sets).
-* ```ModelPredictionPipeline.ipynb``` (Prediction processes of modelling pipeline).
-* ```WAMEX_MODEL_EXPLAIN.ipynb``` (Features SHAP interpreations used in report).
+* ```eli/nbs/CLOSE_ASSAYS_FROM_SHP.ipynb``` (contains distance function).
+* ```eli/nbs/ModelCreationPipeline.ipynb``` (Creating model pipeline pickles for commodity sets).
+* ```eli/nbs/ModelPredictionPipeline.ipynb``` (Prediction processes of modelling pipeline).
+* ```eli/nbs/WAMEX_MODEL_EXPLAIN.ipynb``` (Features SHAP interpreations used in report).
 
 ```data```: Directory for data storage, internal files/folders may need to be included in ```.gitignore``` if too large.
